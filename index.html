@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Aweosome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="İlhan Söylemez,Yazılım,C#,ASP.NET,MVC">
+    <meta name="description"
+        content="Bu site bir yazılım bloğudur. Yazılıma dair aradığınız tüm içeriklere bu siteden ulaşabilirsiniz.">
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" media="(max-width:768px)" href="./css/tablet.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="./css/mobile.css">
+
+    <title>Yazılım Bloğu</title>
+</head>
+
+<body>
+
+
+    <header class="bg-dark-blue">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-small">İlhan Söylemez</h1>
+                <ul>
+                    <li><a href="#home">Ana Sayfa</a></li>
+                    <li><a href="#project">Projeler</a></li>
+                    <li> <a href="#blog">Blog</a></li>
+                    <li> <a href="#contact">İletişim</a></li>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section id="home">
+
+        <img src="./img/333.jpg" height="200" width="175" alt="İlhan Söylemez">
+        <div class="name">
+            <h2 class="heading-big">İlhan Söylemez</h2>
+            <p>Software Developer | C#, ASP.NET MVC,JAVASCRİPT</p>
+        </div>
+        <a href="#blog" class="btn-primary">Blog adresine git.</a>
+
+    </section>
+
+
+    <section id="project" class="bg-dark-blue">
+        <h3 class="text-center heading-medium">Projeler</h3>
+        <div class="items">
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Market Projesi</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Market Projesi</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </article>
+            <article class="item">
+                <i class="fa fa-pencil-alt"></i>
+                <h3>Market Projesi</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="bloglar">
+        <h3 class="text-center heading-medium">Kurslar</h3>
+        <div class="container">
+            <div class="bloglar">
+                <div class="blog">
+                    <div class="blog-image">
+                        <img src="./img/css.jpg" width="150" height="150" alt="css">
+                    </div>
+
+                    <div class="blog-info">
+                        <div class="title">CSS NEDİR?</div>
+                        <div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis,
+                            et?</div>
+                        <div class="instructor">İLHAN SÖYLEMEZ</div>
+                    </div>
+                </div>
+                <div class="blog">
+                    <div class="blog-image">
+                        <img src="./img/solid.png" width="150" height="150" alt="css">
+                    </div>
+
+                    <div class="blog-info">
+                        <div class="title">SOLİD NEDİR?</div>
+                        <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium
+                            facere ratione ea veritatis atque nam, cupiditate nesciunt excepturi blanditiis ipsa sint
+                            nisi similique eum, laboriosam perspiciatis dicta error, nemo corporis. Minus pariatur
+                            consequuntur quod nam cum optio incidunt, mollitia accusantium neque veritatis ex eos nulla
+                            et, modi, ratione tempora quisquam non sunt! Repellat incidunt dolores voluptatum aut
+                            officiis, suscipit eveniet sunt sint ducimus maxime quibusdam quae veniam beatae quis
+                            corporis assumenda velit et fugit, vitae quia non. Quisquam esse possimus mollitia
+                            laudantium ea beatae iure ducimus. A numquam labore sed quas deserunt unde minus asperiores
+                            incidunt eos adipisci. Reiciendis, rerum.</div>
+                        <div class="instructor">İLHAN SÖYLEMEZ</div>
+                    </div>
+                </div>
+                <div class="blog">
+                    <div class="blog-image">
+                        <img src="./img/csharp.png" width="150" height="150" alt="css">
+                    </div>
+
+                    <div class="blog-info">
+                        <div class="title">CSHARP NEDİR?</div>
+                        <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure,
+                            corrupti!</div>
+                        <div class="instructor">İLHAN SÖYLEMEZ</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-dark-blue">
+        <div class="contact-form">
+            <form>
+                <h4 class="text-center heading-medium">Bana ulaşın.</h4>
+                <div class="form-group">
+                    <label for"name">İsim</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="İsim" />
+
+                </div>
+                <div class="form-group">
+                    <label for"email">Email</label>
+                    <input type="text" class="form-control" name="email" id="email" placeholder="E-Mail" />
+
+                </div>
+                <div class="form-group">
+                    <label for"message">Message</label>
+                    <textarea name="message" id="message" rows="5" class="form-control"
+                        placeholder="Mesajınız..."> </textarea>
+                </div>
+                <button type="submit" class="btn btn-block">Gönder</button>
+                <ul>
+                    <li><a href="#"> <i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#"> <i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"> <i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </form>
+        </div>
+
+
+        </form>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
